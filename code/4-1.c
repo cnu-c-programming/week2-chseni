@@ -1,8 +1,14 @@
 #include <stdio.h>
+int main() {
+    int a,b,d;
+    char c;
 
-int main()
-{
+    scanf("%d %d %c",&a,&b,&c);
+    if (c=='-') d = a-b;
+    if (c=='+') d = a+b;
+    if (c=='*') d = a*b;
+    if (c=='/') d = a/b;
+    printf("%d",d);
 
     return 0;
 }
-
