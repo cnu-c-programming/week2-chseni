@@ -1,8 +1,14 @@
 #include <stdio.h>
+int main() {
+    int a = -1;
+    unsigned int b = 1;
 
-int main()
-{
+    if (a < b) {
+        printf("a < b\n");
+    }
+    else {
+        printf("a >= b ???\n");
+    }
 
     return 0;
 }
-
