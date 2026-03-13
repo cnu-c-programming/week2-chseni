@@ -5,7 +5,7 @@ int main() {
 
     printf("int : %d\n", var1);
     printf("hex : %x\n", var1);
-    printf("int : %o\n", var1);
+    printf("oct : %o\n", var1);
 
     char var2 = 'c';
     printf("char : %c\n", var2);
