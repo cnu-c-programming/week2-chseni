@@ -1,13 +1,11 @@
 #include <stdio.h>
-#include <math.h>
 
 int main() {
     int a;
     scanf("%d",&a);
     
-    int b = sqrt(a);
     int c = 0;
-    for(int i=2;i<=b;i++) {
+    for(int i=2;i<=a/2;i++) {
         if(a%i==0) {
             printf("false\n");
             c = 1;
