@@ -12,7 +12,8 @@ int main() {
             break;
         }
     }
-    if(c==0) printf("true\n");
+    if(c==0 && a != 1) printf("true\n");
+    if(a==1) printf("false");
     return 0;
 
 }
